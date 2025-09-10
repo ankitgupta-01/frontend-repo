@@ -1,0 +1,43 @@
+.container{
+            border: 2px solid black;
+            border-radius: 22px;
+            border-top: 0px ;
+            padding: 2px;
+
+        }
+        .box1{
+            /* border: 2px solid black; */
+            margin: 9px 9px 25px 9px;
+        }
+         .para1{
+           /* border: 2px solid black; */
+          margin: 9px 6px 71px 2px;
+
+        }
+
+        .para2{
+            /* border: 2px solid black; */
+  margin: 29px;
+  border-bottom: 5px double rgb(120, 172, 131);
+ border-radius: 15px;
+        }
+
+
+        .box2{
+            border: 2px solid rgb(99, 97, 97);
+            margin: 9px 9px 9px 9px;
+        }
+
+        .dotted{
+            border: 2px dotted purple;
+            margin: 5px 5px 5px 5px;
+            padding: 10px;
+        }
+
+        .para3{
+             border: 2px solid rgb(255, 221, 158);
+        }
+        .para4{
+            border: 2px solid rgb(255, 221, 158);
+        }
+
