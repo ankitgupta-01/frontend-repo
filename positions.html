@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    /* Box 1 - Absolute */
+    .box1 {
+      width: 150px;
+      height: 100px;
+      background: pink;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      transform: rotate(-8deg);
+    }
+
+    /* Box 2 - Relative */
+    .box2 {
+      width: 100px;
+      height: 100px;
+      background: plum;
+      position: relative;
+      left: 250px;
+      top: 60px;
+      transform: rotate(91deg);
+      text-align: center;
+      line-height: 100px;
+    }
+
+    /* Box 3 - Fixed */
+    .box3 {
+      width: 400px;
+      height: 80px;
+      background: olive;
+      color: white;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px;
+    }
+
+    /* Box 4 - Hover effect */
+    .box4 {
+      width: 120px;
+      height: 150px;
+      background: coral;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      transition: all 0.5s ease;
+    }
+    .box4:hover {
+      left: 200px;
+      top: 200px;
+      background: tomato;
+    }
+
+    /* Box 5 - Sticky */
+    .box5 {
+      width: 200px;
+      height: 150px;
+      background: navy;
+      color: white;
+      position: sticky;
+      top: 0;
+      margin: 150px 0;
+      padding: 10px;
+    }
+
+    p {
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box1">Box 1</div>
+  <div class="box2">Box 2</div>
+  <div class="box3">Box 3 - this is my original position, will not move even on scroll</div>
+  <div class="box4">Box 4 - hover on me and i will change my position</div>
+  <div class="box5">Box 5 - scroll and i will be at the top - visible</div>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consectetur error ratione sequi asperiores maiores. 
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat rerum doloribus eveniet asperiores accusamus, sed sint consequatur, non obcaecati maiores optio facilis suscipit dolore amet iusto deleniti reprehenderit necessitatibus alias aspernatur.</p>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, deserunt. Fugit nesciunt deleniti quibusdam, quas quidem ipsam veniam nisi exercitationem!</p>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eveniet illum voluptate tempora ad iusto fugit. Fugiat quae reiciendis eos deserunt animi.</p>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellendus, deleniti debitis porro aperiam, voluptate aut expedita commodi saepe vero nobis!</p>
+
+</body>
+</html>
